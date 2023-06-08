@@ -189,7 +189,7 @@ export function MasonryTabs() {
             </Tab.Panel>
             <Tab.Panel>
               <Masonry
-                className="flex gap-4 transition-all hover:opacity-70 cursor-pointer"
+                className="flex gap-4"
                 columnClassName=""
                 breakpointCols={2}
               >
