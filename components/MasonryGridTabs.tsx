@@ -18,9 +18,9 @@ import lgZoom from 'lightgallery/plugins/zoom';
 
 import { use, useRef } from 'react';
 
-//Watches Grid Source
 import Image from 'next/image';
-//source images
+
+//source images !!
 import watch1 from '/public/watch1.webp';
 import watch2 from '/public/watch2.webp';
 import watch3 from '/public/watch3.webp';
