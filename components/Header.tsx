@@ -92,6 +92,7 @@ export function HeaderComponent() {
                 key={item.name}
                 href={item.href}
                 className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  hover:text-stone-400"
+                onClick={() => setMobileMenuOpen(false)}
               >
                 {item.name}
               </a>
