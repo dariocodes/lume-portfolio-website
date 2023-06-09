@@ -8,13 +8,13 @@ export default function Home() {
     <div className="h-full bg-stone-900 flex flex-col overflow-auto relative">
       <HeaderComponent></HeaderComponent>
 
-      <main className="grow">
+      <main id="work" className="grow">
         <MasonryTabs></MasonryTabs>
       </main>
-      <section className="mt-6 px-6 py-12 text-center">
+      <section id="brands" className="mt-6 px-6 py-24 text-center">
         <Brands />
       </section>
-      <section>
+      <section id="features">
         <LogoCloud />
       </section>
 

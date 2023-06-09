@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export function LogoCloud() {
   return (
-    <div className="bg-stone-900 py-24 sm:py-32">
+    <div className="bg-stone-900 py-24 ">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-center text-lg font-semibold leading-8 text-white">
           Appearing in
@@ -36,6 +36,17 @@ export function LogoCloud() {
             width={158}
             height={48}
           />
+        </div>
+        <div className="mt-16 flex justify-center">
+          <p className="relative rounded-full bg-gray-800 px-4 py-1.5 text-sm leading-6 text-gray-300">
+            <span className="hidden md:inline">
+              Our content has been viewed by millions of people
+            </span>
+            <a href="#" className="font-semibold text-white">
+              <span className="absolute inset-0" aria-hidden="true" /> Contact
+              us <span aria-hidden="true">&rarr;</span>
+            </a>
+          </p>
         </div>
       </div>
     </div>
