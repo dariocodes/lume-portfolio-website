@@ -98,6 +98,11 @@ const tabs = [
   },
 ];
 
+const breakpointColumnsObj = {
+  default: 2,
+  700: 2,
+};
+
 export function MasonryTabs() {
   const lightboxRef = useRef<LightGallery | null>(null);
   return (
@@ -120,7 +125,7 @@ export function MasonryTabs() {
               <Masonry
                 className="flex gap-4"
                 columnClassName=""
-                breakpointCols={2}
+                breakpointCols={breakpointColumnsObj}
               >
                 {watches.map((watch, idx) => (
                   <Image
