@@ -25,7 +25,7 @@ export function HeaderComponent() {
       <div className="flex-1 fixed justify-end items-center md:flex hidden right-8 z-10">
         {' '}
         <Link
-          href="#"
+          href="/contact"
           className="transition-all bg-transparent font-regular hover:bg-white hover:text-stone-900 py-2 px-4 border border-white hover:border-transparent rounded-full"
         >
           CONTACT

@@ -22,7 +22,7 @@ const brandNames = [
 export function Brands() {
   return (
     <>
-      <h1 className="text-center text-lg md:text-5xl font-semibold leading-tight text-white">
+      <h1 className="text-center text-lg md:text-4xl font-semibold leading-tight text-white">
         Among clients and <br /> collaborations.
       </h1>
       <ul className="mt-6 font-light">

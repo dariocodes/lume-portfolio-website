@@ -42,7 +42,7 @@ export function LogoCloud() {
             <span className="hidden md:inline">
               Our content has been viewed by millions of people
             </span>
-            <a href="#" className="font-semibold text-white">
+            <a href="/contact" className="font-semibold text-white">
               <span className="absolute inset-0" aria-hidden="true" /> Contact
               us <span aria-hidden="true">&rarr;</span>
             </a>
