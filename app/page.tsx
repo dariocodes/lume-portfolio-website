@@ -7,7 +7,7 @@ export default function Home() {
       <header className="flex justify-center items-center px-6 py-6">
         <div className="flex-1 fixed md:flex hidden left-8 z-10">
           <ul>
-            <li className="transition-all hover:text-stone-400 ">
+            <li className="transition-all hover:text-stone-400  ">
               <a href="#">WORK</a>
             </li>
             <li className="transition-all hover:text-stone-400 ">

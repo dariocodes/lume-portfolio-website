@@ -106,7 +106,7 @@ export function MasonryTabs() {
         <Tab.Group>
           <Tab.List className="flex justify-center items-center gap-12 py-8">
             {tabs.map((tab) => (
-              <Tab key={tab.key}>
+              <Tab key={tab.key} className="focus:outline-none">
                 {({ selected }) => (
                   <span className={selected ? 'text-white' : 'text-stone-600'}>
                     {tab.display}
@@ -128,6 +128,7 @@ export function MasonryTabs() {
                     key={watch.key}
                     src={watch.image}
                     alt={altWatch}
+                    placeholder="blur"
                     onClick={() => {
                       lightboxRef.current?.openGallery(idx);
                     }}
@@ -164,6 +165,7 @@ export function MasonryTabs() {
                       key={filteredPhoto.key}
                       src={filteredPhoto.image}
                       alt={altWatch}
+                      placeholder="blur"
                       onClick={() => {
                         lightboxRef.current?.openGallery(idx);
                       }}
@@ -201,6 +203,7 @@ export function MasonryTabs() {
                       key={filteredPhoto.key}
                       src={filteredPhoto.image}
                       alt={altWatch}
+                      placeholder="blur"
                       onClick={() => {
                         lightboxRef.current?.openGallery(idx);
                       }}
