@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Contact() {
   return (
     <div className="relative isolate bg-gray-900">
@@ -21,6 +23,7 @@ export default function Contact() {
                     <path d="M130 200V.5M.5 .5H200" fill="none" />
                   </pattern>
                 </defs>
+
                 <svg
                   x="100%"
                   y={-1}
@@ -48,7 +51,13 @@ export default function Contact() {
                 />
               </div>
             </div>
-            <h2 className="text-3xl font-bold tracking-tight text-white">
+            <Link href="/">
+              <span className="text-3xl " aria-hidden="true">
+                &larr;
+              </span>
+            </Link>
+
+            <h2 className="text-3xl font-bold tracking-tight text-white mt-4">
               Get in touch
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
