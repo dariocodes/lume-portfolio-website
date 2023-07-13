@@ -24,14 +24,20 @@ import Image from 'next/image';
 import watch1 from '/public/watch1.webp';
 import watch2 from '/public/watch2.webp';
 import watch3 from '/public/watch3.webp';
-import watch4 from '/public/watch4.webp';
+import lapis from 'public/lapis-dd.jpg';
 import watch5 from '/public/watch5.webp';
 import watch6 from '/public/watch6.jpg';
 import watch7 from '/public/watch7.jpg';
 import watch8 from '/public/watch8.jpg';
+import stonedialduo from 'public/stonedialduo.jpg';
+import apclose from 'public/apclose.jpg';
+import khanjar from 'public/khanjar.jpg';
+import nautdet from 'public/nautdet.jpg';
+import pnws from 'public/pnws.jpg';
 
 const altWatch = 'Picture of a Watch';
 
+//Also add watches as objects!
 const watches = [
   {
     key: '1',
@@ -40,9 +46,21 @@ const watches = [
     src: '/watch1.webp',
   },
   {
+    key: 'pndet',
+    image: pnws,
+    type: 'watch',
+    src: '/pnws.jpg',
+  },
+  {
+    key: 'apclose',
+    image: apclose,
+    type: 'details',
+    src: '/apclose.jpg',
+  },
+  {
     key: '2',
     image: watch2,
-    type: 'details',
+    type: 'watch',
     src: '/watch2.webp',
   },
   {
@@ -52,10 +70,16 @@ const watches = [
     src: '/watch3.webp',
   },
   {
+    key: 'khanjar',
+    image: khanjar,
+    type: 'details',
+    src: '/khanjar.jpg',
+  },
+  {
     key: '4',
-    image: watch4,
+    image: lapis,
     type: 'watch',
-    src: '/watch4.webp',
+    src: '/lapis-dd.jpg',
   },
   {
     key: '5',
@@ -70,16 +94,29 @@ const watches = [
     src: '/watch6.jpg',
   },
   {
+    key: 'nautdet',
+    image: nautdet,
+    type: 'details',
+    src: '/nautdet.jpg',
+  },
+
+  {
     key: '7',
     image: watch7,
-    type: 'details',
+    type: 'watch',
     src: '/watch7.jpg',
   },
   {
     key: '8',
     image: watch8,
-    type: 'details',
+    type: 'watch',
     src: '/watch8.jpg',
+  },
+  {
+    key: '9',
+    image: stonedialduo,
+    type: 'watch',
+    src: '/stonedialduo.jpg',
   },
 ];
 
